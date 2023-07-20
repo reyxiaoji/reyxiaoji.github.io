@@ -17,7 +17,7 @@ async function requestAPI(path, data) {
       formData.append(key, data[key]);
     }
 
-    const response = await fetch(`http://${ServerUrl}:4545/${path}`, {
+    const response = await fetch(`http://${ServerUrl}:4545/`, {
     method: "POST",
     headers: {
       "password": serverPassword,
