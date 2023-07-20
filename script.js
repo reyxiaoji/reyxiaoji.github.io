@@ -1,4 +1,4 @@
-const ServerUrl = "https://reyxiaoji.github.io/";
+const ServerUrl = "reyxiaoji.github.io";
 const serverPassword = "MyPassword";
 
 function isJsonString(str) {
