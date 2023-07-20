@@ -68,7 +68,7 @@ const response2 = await requestAPI("getOutput", {
     scriptID: response1.scriptID
  });
 
-const output = response2.split("\");
+const output = response2.split();
 const parsedData = output.map(item => {
     const [growID, status, world, ping] = item.split("|");
     if (growID === "") {
